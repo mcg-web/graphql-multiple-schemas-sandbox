@@ -1,0 +1,8 @@
+schema {
+  query: PublicQuery
+}
+
+"""Root of the schema."""
+type PublicQuery {
+  foo: String!
+}

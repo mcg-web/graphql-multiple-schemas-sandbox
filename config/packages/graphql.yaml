@@ -1,0 +1,14 @@
+overblog_graphql:
+    definitions:
+        schema:
+            public:
+                query: PublicQuery
+            internal:
+                query: InternalQuery
+        mappings:
+            auto_discover: false
+            types:
+                -
+                    type: yaml
+                    dir: "%kernel.project_dir%/config/graphql"
+                    suffix: ~
