@@ -1,8 +1,9 @@
 schema {
-  query: PublicQuery
+  query: InternalQuery
 }
 
 """Root of the schema."""
-type PublicQuery {
+type InternalQuery {
   foo: String!
+  bar: String!
 }
